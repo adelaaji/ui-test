@@ -136,6 +136,9 @@
       height: 47.5rem;
       @media screen and (max-width: $break-md) {
         height: auto;
+        .scrollarea-content {
+          touch-action: auto;
+        }
       }
     }
     .list-container {

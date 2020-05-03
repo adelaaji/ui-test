@@ -6426,6 +6426,10 @@ a:hover {
   .modal-body .right-sidebar .history-comments-list .scrollable-area {
     height: auto;
   }
+  .modal-body .right-sidebar .history-comments-list .scrollable-area .scrollarea-content {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
 }
 
 .modal-body .right-sidebar .history-comments-list .list-container .day-container {
@@ -6773,6 +6777,10 @@ a:hover {
 @media screen and (max-width: 800px) {
   .modal-body .left-sidebar .scrollable-area {
     height: auto;
+  }
+  .modal-body .left-sidebar .scrollable-area .scrollarea-content {
+    -ms-touch-action: auto;
+        touch-action: auto;
   }
 }
 

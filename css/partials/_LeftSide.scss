@@ -38,6 +38,9 @@
     height: 566px;
     @media screen and (max-width: $break-md) {
       height: auto;
+      .scrollarea-content {
+        touch-action: auto;
+      }
     }
   }
 
